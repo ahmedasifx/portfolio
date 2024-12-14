@@ -1,11 +1,14 @@
-import SplineScene from "./SplineScene";
+import React, { Suspense } from "react";
 
+const SplineScene = React.lazy(() => import("./SplineScene"));
 const Hero = () => {
   return (
       <section id="home" className="relative min-h-screen">
         {/* Background Canvas */}
         <div className="absolute inset-0 z-0">
-          <SplineScene />
+            <Suspense fallback={<div>Loading...</div>}>
+                <SplineScene />
+            </Suspense>
         </div>
 
         {/* Content */}

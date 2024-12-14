@@ -2,22 +2,23 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    company: "Google",
-    position: "Senior Software Engineer",
-    period: "2020 - Present",
+    company: "Pick Me",
+    position: "Associate software engineer",
+    period: "October 2024 - Present",
     description: "Leading the development of cloud-based solutions and implementing scalable microservices architecture."
   },
   {
-    company: "Microsoft",
-    position: "Software Engineer",
-    period: "2018 - 2020",
-    description: "Developed and maintained enterprise-level applications using .NET Core and Azure cloud services."
+    company: "Pick Me",
+    position: "Software Engineer Intern",
+    period: "March 2024 - October 2024",
+    description: "Implemented POC "
   },
   {
-    company: "Amazon",
-    position: "Junior Developer",
-    period: "2016 - 2018",
-    description: "Worked on AWS services and contributed to the development of internal tools."
+    company: "the Assembly",
+    position: "RND intern",
+    period: "Sep 2022 -Nov 2022",
+    description: "Researching on different tools and frame works and built Project based on them tools Like " +
+        "React js ,fire base, Three js ,Django, Unity "
   }
 ];
 
